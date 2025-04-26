@@ -26,6 +26,8 @@ video {
 .hero-container > h1 {
     color: white;
     font-size: 100px;
+    margin-left: 120px; 
+    margin-top: 80px;   
 }
 
 .hero-image {
@@ -43,6 +45,7 @@ video {
     color: white;
     font-size: 40px;
     margin-top: 20px; 
+    margin-left: 140px; 
 }
 
 .btn {
