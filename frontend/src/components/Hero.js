@@ -3,10 +3,11 @@ import { Button } from './Button'
 import './Hero.css';
 import videos from '../videos/cargo1.mp4';
 import Typical from 'react-typical'
+import Navbar from './Navbar';
 function Hero() {
     return (
         <div className='hero-container'>
-
+            <Navbar />
             <img src="/homepage.jpg" alt="Hero Background" className="hero-image" />
 
             <h1>Ledger

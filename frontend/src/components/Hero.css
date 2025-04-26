@@ -16,8 +16,11 @@ video {
     flex-direction: column;
     object-fit: contain;
     align-items: flex-start;
-    padding-left: 100px;
-    padding-top:50px;
+    padding-left: 10px;
+    padding-top: 100px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
 }
 
 .hero-container > h1 {

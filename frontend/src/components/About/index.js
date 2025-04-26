@@ -1,14 +1,4 @@
 import { useEffect, useState } from 'react'
-import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
-
-import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.css'
 import { faIndustry, faPlaneDeparture, faShip, faTrainSubway, faTruckField, faWarehouse } from '@fortawesome/free-solid-svg-icons'
@@ -26,7 +16,7 @@ const About = () => {
   return (
     <>
       <div className="about-page">
-        <video src={video2} autoPlay loop muted></video>
+        <img src="/about-us.png" alt="About-us Background" className="about-us-image" />
         <div className="text-zone">
           <h1 className='text-about'>
             ABOUT US

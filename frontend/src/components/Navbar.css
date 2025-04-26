@@ -12,6 +12,7 @@
   top: 0;
   font-weight: bold;
   z-index: 999;
+  transform: translate(250px, 10px); /* <-- Add this */
 }
 
 .navbar-container {
@@ -33,7 +34,7 @@
   font-size: 1rem;
   display: flex;
   align-items: center;
-  transform: translateX(-150px);
+  transform: translateX(-190px);
   margin: auto 0;
 }
 
