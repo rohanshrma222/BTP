@@ -44,6 +44,10 @@
 .about-page .text-zone {
   position: relative;
   top: -20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* this will center the cube */
+  text-align: center;
 }
 .about-page .text-zone h1 {
   font-size: 50px;
@@ -53,6 +57,7 @@
 .about-page .text-zone p {
   font-size: 20px;
   color: white;
+  padding-bottom: 100px;
 }
 
 .cubespinner {
@@ -136,3 +141,12 @@ p{
 .bottom_para{
   margin-bottom: 50px;
 }
+
+.stage-cube-cont {
+  width: 200px;
+  height: 200px;
+  margin-top: 160px; 
+  perspective: 800px;
+}
+
+

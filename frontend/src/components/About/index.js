@@ -26,31 +26,31 @@ const About = () => {
           We are using innovative technologies to improve the efficiency and transparency of supply chain management, which can benefit businesses by helping them better serve their customers and stakeholders.
           We have designed an approach to help small startup ventures in automating their Supply Chain in order to maximise their profit. Our model includes various Supply Chain Services like Demand Projection and Analysis, Product Lineage Tracking and a marketplace to connect ventures to the wholesale Sellers.
           </p>
-          
+              <div className="stage-cube-cont">
+              <div className="cubespinner">
+                <div className="face1">
+                  <FontAwesomeIcon icon={faTruckField} color="#EB455F " />
+                </div>
+                <div className="face2">
+                  <FontAwesomeIcon icon={faWarehouse} color="#EB455F " />
+                </div>
+                <div className="face3">
+                  <FontAwesomeIcon icon={faPlaneDeparture} color= "#EB455F" />
+                </div>
+                <div className="face4">
+                  <FontAwesomeIcon icon={faShip} color="#EB455F " />
+                </div>
+                <div className="face5">
+                  <FontAwesomeIcon icon={faTrainSubway} color="#EB455F " />
+                </div>
+                <div className="face6">
+                  <FontAwesomeIcon icon={faIndustry} color="#EB455F " />
+                </div>
+              </div>
+            </div>
         </div>
 
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faTruckField} color="#EB455F " />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faWarehouse} color="#EB455F " />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faPlaneDeparture} color= "#EB455F" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faShip} color="#EB455F " />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faTrainSubway} color="#EB455F " />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faIndustry} color="#EB455F " />
-            </div>
-          </div>
-        </div>
+       
 
 
       </div>
