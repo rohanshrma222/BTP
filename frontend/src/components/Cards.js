@@ -11,9 +11,9 @@ function Cards() {
     return (
         <div className='cards'>
 
-            <video src={video} autoPlay loop muted></video>
+            <img src="/Cards.png" alt="About-us Background" className="about-us-image" />
             <h1>TRY US OUT</h1>
-
+            
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
