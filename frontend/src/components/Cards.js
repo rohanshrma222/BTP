@@ -67,6 +67,14 @@ function Cards() {
 
             </div>
 
+            <p>
+                ~CONTRIBUTORS:<br />
+                Rohan - full stack developer (ui + backend + blockchain + AI)<br />
+                Tanmay - blockchain + backend<br />
+                Dipesh - backend
+            </p>
+
+
         </div>
     )
 }
