@@ -153,7 +153,8 @@ h1 {
     margin-left: 1%; 
     margin-top: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
+    font-family: 'Manifold', sans-serif;
 }
 
 
@@ -175,3 +176,9 @@ h1 {
         margin-bottom: 2rem;
     }
 }
+
+@font-face {
+  font-family: 'Manifold';
+  src: url('../assets/fonts/manifold.ttf') format('truetype');
+}
+
