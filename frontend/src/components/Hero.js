@@ -29,7 +29,7 @@ function Hero() {
             <img src="/homepage.jpg" alt="Hero Background" className="hero-image" id="hero-background" />
 
 
-            <h1>Ledger
+            <h1 className='heading'>Ledger
                 <Typical className="text-anim"
                     loop={Infinity}
                     wrapper='b'

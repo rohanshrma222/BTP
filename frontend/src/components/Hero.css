@@ -5,8 +5,25 @@ video {
     position: absolute;
     z-index: -100;
 }
+
+.heading{
+  color: #EB455F !important;
+  font-family: 'Untyped', sans-serif;
+  font-size: 7rem !important;
+}
+
+@font-face {
+  font-family: 'Untyped';
+  src: url('../assets/fonts/Untyped.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Maregy';
+  src: url('../assets/fonts/Maregy.ttf') format('truetype');
+}
+
 .text-anim{
     color: #f0566d !important;
+    font-family: 'Untyped', sans-serif;
 }
 .hero-container {
     /* background: url('../images/space1.jpeg') center center/cover no-repeat; */
@@ -48,6 +65,8 @@ video {
     font-size: 40px;
     margin-top: 20px; 
     margin-left: 140px; 
+    font-weight:bold;
+    font-family: 'Untyped', sans-serif;
 }
 
 .btn {

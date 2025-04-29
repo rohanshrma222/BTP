@@ -1,5 +1,12 @@
 .text-about{
   color: #EB455F !important;
+  font-family: 'Untyped', sans-serif;
+  font-size: 4rem !important;
+}
+
+@font-face {
+  font-family: 'Untyped';
+  src: url('../../assets/fonts/Untyped.ttf') format('truetype');
 }
 
 .bt {
@@ -136,6 +143,7 @@ p{
 
 .top_para{
   margin-top: -30px;
+  font-weight:bold;
 }
 
 .bottom_para{
