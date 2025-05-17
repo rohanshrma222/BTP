@@ -5,6 +5,7 @@ import video from '../videos/video1.mp4'
 import pic1 from '../images/4020769.jpg'
 import pic2 from '../images/product_track.jpg'
 import pic3 from '../images/marketplace.jpg'
+import pic4 from '../images/datacompression.jpg'
 
 
 function Cards() {
@@ -34,8 +35,15 @@ function Cards() {
                         </a>
                         <a href="https://dapper-gelato-31f330.netlify.app/">
                         <CardItem
+                            src={pic4}
+                            text={<a className='links' href="https://tanmay-0017-demand-forecasting-main-l0arkt.streamlit.app/">Data Compression</a>}
+                            label='product'
+                        />
+                        </a>
+                        <a href="https://dapper-gelato-31f330.netlify.app/">
+                        <CardItem
                             src={pic1}
-                            text={<a className='links' href="https://dapper-gelato-31f330.netlify.app/">Demand Forecasting</a>}
+                            text={<a className='links' href="https://tanmay-0017-demand-forecasting-main-l0arkt.streamlit.app/">Demand Forecasting</a>}
                             label='product'
                         />
                         </a>
